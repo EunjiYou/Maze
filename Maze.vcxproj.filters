@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PathFindingAI">
+      <UniqueIdentifier>{f53af1ed-c9ed-4efd-9691-ec8486191b6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Maze.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="AStarAI.cpp">
+      <Filter>PathFindingAI</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSAI.cpp">
+      <Filter>PathFindingAI</Filter>
+    </ClCompile>
+    <ClCompile Include="RightHandAI.cpp">
+      <Filter>PathFindingAI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Maze.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="AStarAI.h">
+      <Filter>PathFindingAI</Filter>
+    </ClInclude>
+    <ClInclude Include="BFSAI.h">
+      <Filter>PathFindingAI</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFindingAI.h">
+      <Filter>PathFindingAI</Filter>
+    </ClInclude>
+    <ClInclude Include="RightHandAI.h">
+      <Filter>PathFindingAI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
